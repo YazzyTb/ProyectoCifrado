@@ -12,13 +12,18 @@ body{
     min-height: 100vh;
     background-image: url(/img/fondo3.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 .conteiner{
     width: 420px;
-    background: purple;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
 
 }
 .conteiner h1{
@@ -83,4 +88,17 @@ body{
     color: #333;
     font-weight: 600;
 }
+.conteiner .registro{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
 
+.registro p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.registro p a:hover{
+    text-decoration: underline;
+}

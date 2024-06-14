@@ -30,6 +30,10 @@ body{
     font-size: 36px;
     text-align: center;
 }
+.conteiner h6{
+    text-align: center;
+    font-size: 14px;
+}
 .conteiner .caja{
     position: relative;
     width: 100%;
